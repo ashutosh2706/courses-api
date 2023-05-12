@@ -4,21 +4,23 @@
 
 <br>
 
----
 
 ## 🚀 Endpoints:
 
-- ``` 
+- Get list of available courses.
+  
+  ``` 
   GET /courses
   ```
-    Returns list of available courses.
 
-- ``` 
+- Get a single course with the given id.
+  
+  ``` 
   GET /courses/id
   ```
-    Returns a single course with the given id.
 
-- ```
+- Add a new course.
+  ```
   POST /courses
   ```
   ```
@@ -30,19 +32,18 @@
     "description": "Course Description"
   }
   ```
-    Add a new course.
 
-- ```
+- Update an existing course.
+  ```
   PUT /courses
   ```
-    Update an existing course.
+    
 
-- ```
+- Remove the course with the given course id.
+  ```
   DELETE /courses/id
   ```
-    Removes the course with the given course id.
 
----
 
 <br>
 
